@@ -1,4 +1,4 @@
-# Dummy VFS - Virtual File System
+# Dummy VFS - Virtual File System (for UNIX-like envs)
 
 **Welcome to the Dummy VFS!** This virtual file system is a basic implementation of a file and directory management system with simple functionalities. It allows you to create, delete, list files and directories, and perform read and write operations on files.
 
@@ -28,7 +28,7 @@ The Dummy VFS is a C++ based virtual file system that provides basic file and di
 
 To run the Dummy VFS, you need the following:
 
-- C++ compiler that supports C++11 or higher (e.g., GCC, Clang).
+- C++ compiler that supports C++17 or higher (e.g., GCC, Clang).
 - Standard C++ libraries.
 - The `<iostream>`, `<vector>`, `<fstream>`, `<fcntl.h>`, `<filesystem>`, `<limits.h>`, `<unistd.h>`, `<cstring>`, `<cstdlib>`, and `<dirent.h>` headers.
 
